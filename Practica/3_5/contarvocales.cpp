@@ -27,7 +27,7 @@ int contarVocal(string frase)
 int main()
 {
     string frase;
-    cout << "Decime ago y te voy a decir cuantas vocales tiene: ";
+    cout << "Decime algo y te voy a decir cuantas vocales tiene: ";
     cin >> frase;
     int NumeroDeVocales = contarVocal(frase);
     cout << NumeroDeVocales;
